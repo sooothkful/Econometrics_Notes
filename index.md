@@ -1,6 +1,6 @@
 
 
-# The Scope of Econometrics
+# THE SCOPE OF ECONOMETRICS
 
 **Econometrics is based upon the development of statistical methods for estimating economic relationships, testing economic theories, and evaluating/implementing government and business policy. Econometric methods can be used in areas that have nothing to do with macroeconomic forecasting. Still, the most common application of econometris is the forecasting of interest rates, inflation rates and gross domestic product.**
 
@@ -144,13 +144,6 @@
  
  **Key question in emperical studies is: "Have enough other factors been held fixed to make a case for causality?"
       
-## 
-     
-
-
-
-
-
 
 
 
@@ -158,6 +151,68 @@
 
 
 # PYTHON & ECONOMETRIC ANALYSIS
+
+ **Important things to consider:**
+ 
+  **Reproducibility** 
+  
+       - In order for someone to look at our analysis and understand where the results come from we need to use Python scripts.
+         
+       - Our Python script will contain all the commands for the project from start to finish.
+       
+       - Use comments.
+       
+       - Use variable names within functions.
+       
+                 ex: print(f'some text {variablename}')
+                 
+                 >>> result1 = 1 + 1
+                 >>> print(f'result1: {result1}\n')
+                 result1: 2
+                 
+ **Modules (Functions) **
+ 
+  - Python files that contain functions and variables.
+  
+  - Python comes with built-in modules.
+  
+  - Must import modules and same as some alias name.
+  
+  - After import, modules can be accessed via dot notation.
+  
+  - Use pip install to install many packages 
+  
+  - Useful packages:
+  
+    **wooldridge** - datasets to accompany book
+    **numpy** - most fundamental computing package for array computing with Python
+    **pandas** - powerful data structures for data analysis, time series, and statistics
+    **pandas_datareader** - data readers extracted from the pandas codebase
+    **statsmodels** - statistical computations and models for Python
+    **matplotlib** - Python plotting package
+    **scipy** - Scientific library for Python
+    **patsy** - Python package for describing statistical models and building design matrices
+    **linearmodels** - Instrumental variable and linear panel models for Python
+    
+  - Save generated files as text, spreadsheet or Latex files
+  
+  - File paths:
+  
+     - import os module
+     
+     - obtain os module with os.getcwd()
+     
+     - To change working directory - os.chdir(path)
+     
+    
+    
+    
+                 
+                 
+       
+
+
+##
   
  
   
