@@ -260,11 +260,23 @@ get different density evaluations:
 y1 = stats.norm.pdf(x, 0, 1)
 y2 = stats.norm.pdf(x, 0, 3)
 
-DISCRETE Statistical distribution Functions (pdf/cdf/quantile)
+DISCRETE Statistical distribution Functions (pmf/cdf/quantile)
 - Bernoulli: bernoulli.pmf(x,p), bernoulli.cdf(x,p), bernoulli,ppf(q,p)
-- 
-- 
-
+- binom.pmf(x,n,p)
+- hypergeom.pmf(x,M,n,N)
+- poisson.pmf(x,Y)
+- Geometric: geom.pmf(x,p)
+ 
+CONTINUOUS Statistical distribution Functions (pdf/cdf/quantile)
+- uniform.pdf(x,a,a+b)
+- logistic.pdf(x)
+- expon.pdf(x,scale=1/Y)
+- norm.pdf(x)
+- norm.pdf(x,mu,theta)
+- lognorm.pdf(q,s,0,m)
+- chi2.pdf(x,n) - no quantile(ppf)
+- t.pdf(x,n) - no quantile(ppf)
+- f.pdf(x,m,n) - no quantile(ppf)
 
 
 
