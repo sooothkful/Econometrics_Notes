@@ -156,9 +156,7 @@
  
   **Reproducibility** 
   
-       - In order for someone to look at our analysis and understand where the results come from we need to use Python scripts.
-         
-       - Our Python script will contain all the commands for the project from start to finish.
+       - In order for someone to look at our analysis and understand where the results come from - use scripts or Notebooks.
        
        - Use comments.
        
@@ -212,7 +210,64 @@
        
 
 
-##
+## NUMPY
+
+### OBJECTS IN NUMPY
+ - 
+ - 
+ - 
+### NUMPY SPECIAL CASES
+-
+-
+-
+### NUMPY OPERATIONS
+Important numpy functions:
+- add(x,y) or x+y        - same for other algebra
+- exp(x)                 - exponential of all elements in x
+- sqrt(x)         
+- log(x)          
+- linalg.inv(x)          - inverse of x
+- x.sum()                - sum of all elements in x
+- x.min()
+- x.max()
+- x.dot(y) or x&y        - matrix multiplication of x and y
+- x.transpose () or x.T  - transpose of x
+
+Matrix addition using operator +                 -> matrices need to have the same dimensions
+The * operator doesn't do matrix multiplication  -> it does element-wise multiplication
+Matrix multiplication is done with @             -> dimensions of matrices must match
+Transpose of matrix X:                           -> X.T
+Inverse of matrix X:                             -> linalg.inv(X)
+
+### PANDAS
+Important Pandas functions
+- df.set_index()
+- df[x].shift(i)
+- df[x].diff(i)
+- df.groupby(x).function()
+
+- pd.read_csv() or read_table()
+- pd.append()
+- pd.to_csv 
+
+### MATPLOTLIB & SCIPY
+import matplotlib.pyplot as plt
+import scipy.stats as stats
+plt.save_fig()
+
+get different density evaluations:
+
+y1 = stats.norm.pdf(x, 0, 1)
+y2 = stats.norm.pdf(x, 0, 3)
+
+DISCRETE Statistical distribution Functions (pdf/cdf/quantile)
+- Bernoulli: bernoulli.pmf(x,p), bernoulli.cdf(x,p), bernoulli,ppf(q,p)
+- 
+- 
+
+
+
+
   
  
   
